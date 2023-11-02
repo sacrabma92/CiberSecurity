@@ -8,7 +8,7 @@ ssh -l bandit0 bandit.labs.overthewire.org -p 2220
 ```
 Una vez adentro de la maquina podemos usar el comando 
 
-![alt text](imgs/Comando1.png)
+![alt text](imgs/Comandos1.png)
 
 Asignar una terminal interactiva
 ```
