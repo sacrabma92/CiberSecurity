@@ -10,3 +10,11 @@ Vemos que hay un archivo oculto llamado.hidden procedemos a mirar que tipo de ar
 ![label text](imgs/03_Comando.png) \
 Es un archivo de texto leguible procedemos a usar el comando cat para poder leerlo \
 ![label text](imgs/04_comando.png)
+
+# Otra forma de buscar el archivo
+
+```
+find . -name .hidden | xargs cat
+``` \
+Buscame un archivo en el directorio actual que se llame .hidden y aplicale un cat para ver el contenido \
+
