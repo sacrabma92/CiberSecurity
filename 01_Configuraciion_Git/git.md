@@ -12,4 +12,7 @@ Ahora nos atenticaremos en el navegador con nuestro perfil de GitHub
 ![alt text](imgs/git_perfil.png)
 
 Una vez autenticados vamos a escribir por linea de comandos el siguiente comando para realizar la atenticacion desde  nuestra consolo y que nos habra el navegador web
+```
+gh auth login
+```
 ![alt text](imgs/git_atentication_web_browser.png)
