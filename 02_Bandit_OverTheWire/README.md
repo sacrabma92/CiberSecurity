@@ -8,7 +8,7 @@ Con el comando wc -l contamos la cantidad de lineas que tiene\
 ```
 awk 'NF{print $NF}'
 ```
-Con el comando nos trae el ultimo argumento
+Con el comando nos trae el ultimo argumento \
 ![label text](imgs/03.png)
 
 # Independizar un proceso
