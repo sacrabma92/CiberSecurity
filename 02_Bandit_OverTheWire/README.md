@@ -21,12 +21,6 @@ disown -a
 ## 2 Buscar en un archivo la linea X que contiene AWK
 ![label text](imgs/04.png)
 
-## Comando a nivel de sistema
-Comando aplicado a nivel de sistema se escribre a dentro de: $() \
-
-## Archivos con espacios
-Para poder seleccionar un archivo que tiene espacios se puede encerrar en dobles comillas "" o se puede escapar el spacio con \\ \
-
 ## Comando que busca un archivo por variables
 ```
 find . -type f -printf "%f\t%p\t%u\t%g\t%m\n | column -t
