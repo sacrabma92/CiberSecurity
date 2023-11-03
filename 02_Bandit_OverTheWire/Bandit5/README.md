@@ -4,8 +4,9 @@ La contraseña esta almacenada un un fichero dentro del directorio inhere y tien
 
 Humanamente legible \
 Pesa 1033 bytes \
-No es ejecutable \
+No es ejecutable 
 
+![label text](imgs/01.png)
 ## 1
 Comenzamos listando el contenido de la ruta actual \
 
@@ -29,4 +30,3 @@ Aplicamos al final un xargs que pueda restaurar la salida de cat
 ```
 find . -type f -readable ! -executable -size 1033c | xargs cat | xargs
 ```
-![label text](imgs/01.png)
