@@ -22,3 +22,9 @@ find . -type f -printf "%f\t%p\t%u\t%g\t%m\n | column -t
 
 # Comando Xargs
 Se utiliza para aplicar un comando de forma paralela al siguiente comando \
+
+# Independizar un proceso
+Independizar un programa de la Shell, en caso que no funcione con -a quitarla 
+```
+disown -a
+```
