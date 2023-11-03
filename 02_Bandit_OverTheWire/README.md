@@ -1,11 +1,13 @@
 # Comandos o notas extras
 
 ## Contar las lineas que tiene un fichero
-Con el comando wc -l contamos la cantidad de lineas que tiene
+Con el comando wc -l contamos la cantidad de lineas que tiene\
 ![label text](imgs/02.png)
 
 ## Mostrar el ultimo argumento con AWK 
-
+```
+awk 'NF{print $NF}'
+```
 Con el comando nos trae el ultimo argumento
 ![label text](imgs/03.png)
 ```
