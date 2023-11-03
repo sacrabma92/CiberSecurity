@@ -1,6 +1,6 @@
 # Bandit 6
 
-![label text](imgs/01.png)
+![label text](imgs/01.png)\
 **find /** Buscamos desde la raiz\
 **-user bandit7** El archivo debe pertenecer al usuario bandit7\
 **-group bandit6** El ficheque debe pertenecer al grupo bandit6\

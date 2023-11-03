@@ -1,5 +1,20 @@
 # Comandos o notas extras
 
+## Contar las lineas que tiene un fichero
+Con el comando wc -l contamos la cantidad de lineas que tiene
+![label text](imgs/02.png)
+
+## Mostrar el ultimo argumento con AWK 
+
+Con el comando nos trae el ultimo argumento
+![label text](imgs/03.png)
+```
+awk 'NF{print $NF}'
+```
+## 1 Averiguar en que linea se encuentra una palabra GREP
+## 2 Buscar en un archivo la linea X que contiene AWK
+![label text](imgs/04.png)
+
 ## Comando a nivel de sistema
 Comando aplicado a nivel de sistema se escribre a dentro de: $() \
 
@@ -28,3 +43,5 @@ Independizar un programa de la Shell, en caso que no funcione con -a quitarla
 ```
 disown -a
 ```
+
+
