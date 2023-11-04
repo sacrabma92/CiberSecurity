@@ -22,6 +22,8 @@ Independizar un programa de la Shell, en caso que no funcione con -a quitarla
 ```
 disown -a
 ```
+## Comparar contenido archivos y mostrar en que parte hubo cambios
+![label text](imgs/05.png)
 
 ## 1 Averiguar en que linea se encuentra una palabra GREP
 ## 2 Buscar en un archivo la linea X que contiene AWK
