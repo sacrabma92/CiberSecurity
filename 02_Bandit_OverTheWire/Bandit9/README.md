@@ -16,4 +16,4 @@ Para poder filtrar por los caracteres "=" usamos el grep. Como podemos observar 
 Como observamos que la cadena esta en la ultima linea podemos filtrar con el comando tail\
 ![label text](imgs/05.png)\
 En este caso como queremos los caracteres de la derecha tomamos el ultimo valor\
-![label text](imgs/05.png)
+![label text](imgs/06.png)
