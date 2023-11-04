@@ -8,9 +8,9 @@ mktemp -d
 ```
 Eh ingresamos a la carpeta temporal.
 
-Creamos un codigo para **Scanear puertos** 
+Creamos un codigo para **Scanear puertos**\
 ![label text](imgs/01.png)\
-Le damos permisos de ejecución
+Le damos permisos de ejecución\
 ![label text](imgs/02.png)\
 Corremos el comando
 ![label text](imgs/03.png)\
