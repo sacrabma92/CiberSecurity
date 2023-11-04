@@ -9,16 +9,16 @@ mktemp -d
 Eh ingresamos a la carpeta temporal.
 
 Creamos un codigo para **Scanear puertos** 
-![label text](imgs/01.png)
+![label text](imgs/01.png)\
 Le damos permisos de ejecución
-![label text](imgs/02.png)
+![label text](imgs/02.png)\
 Corremos el comando
-![label text](imgs/03.png)
+![label text](imgs/03.png)\
 Conectamos por medio de necat con certificado SSL en local y en uno de los puertos. Vemos que nos arroja una RSA.
 La copiamos y creamos un archivo en este caso se llama id_rsa y pegamos el contenido.
-![label text](imgs/04.png)
+![label text](imgs/04.png)\
 Le damos permisos 600 que es que el usuario propietario permita ejecutar ese archivo
-![label text](imgs/05.ipng)
-Con el arhivo id_rsa podemos realizar una conexión a localhost por el puerto 2220y le damos que [yes]
-Pegamos el password de Bandit 15 y BOMM! conectamos a bandit 17.
+![label text](imgs/05.png)\
+Con el arhivo id_rsa podemos realizar una conexión a localhost por el puerto 2220y le damos que [yes]\
+Pegamos el password de Bandit 15 y BOMM! conectamos a bandit 17.\
 Vemos el archivo que esta en la ruta /dev/bandit_pass/bandit17
