@@ -11,6 +11,12 @@ awk 'NF{print $NF}'
 Con el comando nos trae el ultimo argumento \
 ![label text](imgs/03.png)
 
+## Ver que servicio esta corriendo por un puerto determinado
+```
+lsof -i:80,22 etcc...
+```
+Puedes ver los puertos separados por comas.
+
 # Independizar un proceso
 Independizar un programa de la Shell, en caso que no funcione con -a quitarla 
 ```
