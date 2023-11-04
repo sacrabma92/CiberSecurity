@@ -1,7 +1,7 @@
 # Bandit 10
 
 La contraseña esta en un archivo data.txt que esta encriptada en base64 \
-![label text](imgs/02.png)\
+![label text](imgs/01.png)\
 # 1
 Listamos el contenido\
 # 2
