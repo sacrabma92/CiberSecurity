@@ -10,4 +10,6 @@ Cada herramienta tiene sus propias ventajas y limitaciones. Por ejemplo, netdisc
 
 En definitiva, el descubrimiento de equipos en la red local es una tarea fundamental para cualquier administrador de redes o profesional de seguridad de la información. Con las técnicas y herramientas adecuadas, es posible realizar esta tarea de manera efectiva y eficiente.
 
-
+# Herramienta masscan
+Con esta herramienta podemos enumerar equipo
+![label text](imgs/01.png)
