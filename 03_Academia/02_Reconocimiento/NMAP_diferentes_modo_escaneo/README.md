@@ -6,6 +6,13 @@ Con Nmap, los profesionales de seguridad pueden identificar los hosts conectados
 
 Asimismo, esta herramienta posee una variedad de funciones y características avanzadas que permiten a los profesionales de seguridad adaptar la misma a sus necesidades específicas. Estas incluyen técnicas de escaneo agresivas, capacidades de scripting personalizadas, y un conjunto de herramientas auxiliares que pueden ser utilizadas para obtener información adicional sobre los hosts objetivo.
 
+# Descubrir equipos activos
+
+Aplica un barrido con PING para detectar que HOST estan activos. Vamos a aplicar una REGEX o expresion regular para indicarle que nos muestre solo las IP que encuentre.
+```
+nmap -sn 192.168.1.8/24 | grep -oP '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}' | sort 
+```
+
 Realizamos un traceroute para averiguar el Gateway nuestro para hacer pruebas con nmap a nuestro Router.
 ![label text](imgs/01.png)
 
@@ -44,9 +51,4 @@ Escaneos por UDP
 nmap -p-p -sU -vvvv -n -Pn 192.168.1.1
 ```
 
-# Descubrir equipos activos
 
-Aplica un barrido con PING para detectar que HOST estan activos. Vamos a aplicar una REGEX o expresion regular para indicarle que nos muestre solo las IP que encuentre.
-```
-nmap -sn 192.168.1.8/24 | grep -oP '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
-```
