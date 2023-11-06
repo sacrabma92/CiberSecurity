@@ -77,7 +77,7 @@ sudo upx ffuf
 
 ```
 
-![label text](imgs/09.pngi)
+![label text](imgs/09.png)
 
 Parametro -c lo colorea\
 Parametro -t 200 aplica 200 hilos\
