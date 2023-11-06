@@ -15,3 +15,49 @@ A continuación, os proporcionamos los enlaces correspondientes a las herramient
 * Whatweb: [https://github.com/urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb)
 * Wappalyzer: [https://addons.mozilla.org/es/firefox/addon/wappalyzer/](https://addons.mozilla.org/es/firefox/addon/wappalyzer/)
 * Builtwith: [https://builtwith.com/](https://builtwith.com/)
+
+## Herramienta Whatweb
+
+Detecta las tecnologias que corren detras de una pagina web o gestor de contenido (Wordpress, Drupal etc...)
+
+Vemos unas tecnologias que esta usando
+
+![labelt text](imgs/01.png)
+
+## Herramienta Wappalyzer
+
+![label text](imgs/02.png)
+
+## Herramienta Builtwith
+
+![label text](imgs/03.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
