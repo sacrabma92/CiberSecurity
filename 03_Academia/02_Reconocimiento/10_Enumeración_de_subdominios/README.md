@@ -50,6 +50,7 @@ Instalamos los paquetes necesarios
 
 Ejecutamos la herramienta para ver que parametros necesitamos\
 Toca pasarle el -d mas el dominio y ENTER!
+
 ![label text](imgs/05.png)
 
 ## Gobuster
@@ -62,6 +63,57 @@ El parametro -t 20 para hilos\
 El grep -v "403" para que nos quite lo que tengan error 403
 
 ![label text](imgs/07.png)
+
+## wfuzz
+Herramienta de Fuzzing
+
+**FUZZ** es la palabra reservada donde colocara el diccionario
+
+Parametro -c -> coloca color a la saldia\
+Parametro --hc=403 oculta los que tengan el 403\
+Parametro -t 20 -> lo hace con hilos\
+Parametro -w -> seleccionamos la lista a usar\
+Parametro -H "Host: FUZZ.tinder.com" donde coloca FUZZ colocara el diccionario\
+URL a buscar\
+
+![label text](imgs/08.png)
+
+## Sublist3r
+
+Clonamos el repositorio en la carpeta **/opt/**\
+Ingresamos e instalamos
+
+```
+python3 setup.py install
+```
+
+![label text](imgs/09.png)
+
+Instalamos paquetes que fuera requeridos
+
+```
+pip3 install -r requirements.txt
+```
+
+![label text](imgs/10.png)
+
+Usamos la herramienta de la siguiente forma
+
+```
+python3 sublist3r.py -d tinder.com
+```
+
+![label text](imgs/11.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
