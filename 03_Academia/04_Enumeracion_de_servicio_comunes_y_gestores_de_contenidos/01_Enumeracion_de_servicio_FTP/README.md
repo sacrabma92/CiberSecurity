@@ -26,6 +26,12 @@ cat /usr/share/wordlists/rockyou.txt
 
 Le das enter y empiza la descarga e instalación. Si hacemos un docker ps. Vemos que el contenero ya se encuentra ejecutandose.
 
+## Tomar porcion de la Lista ya que hacer todo el ataque es demorado.
+
+Solo para la prueba
+
+![label text](imgs/04.png)
+
 ## Reconocimiento Nmap
 
 Vamos a realizar un escaneo al puerto 21 con alguos scripts para que nos arroje mas información.
@@ -38,15 +44,23 @@ nmap -sCV -p21 127.0.0.1
 
 Suponiendo que conocemos el usuario vamos a hacer un ataque de fuerza bruta de Diccionario con hydra.
 
+# Hydra - Ataque BruteForce
+
 * Parametro -l es cuando conocemos el usuario. -L cuando queremos ingresar un diccionario de posibles usuarios.
 * Parametro -P para hacer un ataque por diccionario al password.
 * Parametro -t 15 hilos
 
 ![label text](imgs/03.png)
 
+![label text](imgs/05.png)
 
+# Cuando el usuario FTP es Anonymous
 
+Como podemos observar en esta ocación el servidor es vulnerable con el usuario Anonymous.
 
+![label text](imgs/06.png)
+
+![label text](imgs/07.png)
 
 
 
