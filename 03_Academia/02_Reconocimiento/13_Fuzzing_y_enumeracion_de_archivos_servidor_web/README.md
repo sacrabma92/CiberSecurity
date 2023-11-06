@@ -107,6 +107,10 @@ Configurar un certificado SSL de burpsute
 
 Con el plugin corriendo vamos a la pagina web. DESCARGAR el certificado donde dice **CA Certificate**
 
+```
+http://burp
+```
+
 ![label text](imgs/13.png)
 
 Una vez descargado vamos a configurar el navegador. Filtramos por Certificates
