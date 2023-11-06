@@ -10,9 +10,9 @@ Finalmente, se habla sobre el plugin ‘Clearbit Connect‘ para Gmail, que perm
 
 A continuación, se proporcionan los enlaces a las herramientas online vistas en esta clase:
 
-Hunter: [https://hunter.io/](https://hunter.io/)
-Intelligence X: [https://intelx.io/](https://intelx.io/)
-Phonebook.cz: [https://phonebook.cz/](https://phonebook.cz/)
+Hunter: [https://hunter.io/](https://hunter.io/)\
+Intelligence X: [https://intelx.io/](https://intelx.io/)\
+Phonebook.cz: [https://phonebook.cz/](https://phonebook.cz/)\
 Clearbit Connect: [Chrome Extension](https://chrome.google.com/webstore/detail/clearbit-connect-free-ver/pmnhcgfcafcnkbengdcanjablaabjplo)
 
 En conclusión, la recolección de correos electrónicos es una tarea importante en la fase inicial de OSINT y puede proporcionar información valiosa. Sin embargo, es importante tener en cuenta que la recolección de correos electrónicos por sí sola no permite identificar directamente posibles vulnerabilidades en una red o sistema.
