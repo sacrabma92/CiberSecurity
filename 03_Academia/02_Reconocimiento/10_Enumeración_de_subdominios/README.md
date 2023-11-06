@@ -29,4 +29,55 @@ A continuación, os adjuntamos los enlaces a las herramientas vistas en esta cla
 * Wfuzz (Herramienta activa): [https://github.com/xmendez/wfuzz](https://github.com/xmendez/wfuzz)
 * Sublist3r (Herramienta pasiva): [https://github.com/huntergregal/Sublist3r](https://github.com/huntergregal/Sublist3r)
 
+Buscar subdominios
 ![label text](imgs/01.png)
+
+Buscar email's
+![label text](imgs/02.png)
+
+Buscar Urls
+![label text](imgs/03.png)
+
+# Herramienta para enumerar Subdomains
+
+## CTRF
+Herramienta recolección de subdominio de forma, PASIVA!
+
+Primero clonamos el Repositorios\
+Instalamos los paquetes necesarios
+
+![labelt text](imgs/04.png)
+
+Ejecutamos la herramienta para ver que parametros necesitamos\
+Toca pasarle el -d mas el dominio y ENTER!
+![label text](imgs/05.png)
+
+## Gobuster
+Herramienta recolección de subdominios de forma, AGRESIVA o ACTIVA! ya que emplea el uso de BruteForce
+![label text](imgs/06.png)
+
+El parametro -u para el dominio\
+El parametro -w para la lista a usar\
+El parametro -t 20 para hilos\
+El grep -v "403" para que nos quite lo que tengan error 403
+
+![label text](imgs/07.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
