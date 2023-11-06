@@ -62,7 +62,7 @@ docker rmi ID
 docker rmi $(docker images -q) --force
 ```
 
-![label text](imgs/06.png)
+![label text](imgs/05.png)
 
 
 
