@@ -48,7 +48,7 @@ Una vez instalado vamos a realizar el ataque de fuerza o Diccionario al password
 * Parametro -s PORT indicamos el puerto
 * Parametro -t 15 hilos a implementar
 
-![label text](imgs/02.png)
+![label text](imgs/03.png)
 
 
 
