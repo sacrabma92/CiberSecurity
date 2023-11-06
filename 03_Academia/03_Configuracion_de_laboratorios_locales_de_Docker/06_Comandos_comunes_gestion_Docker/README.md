@@ -48,6 +48,21 @@ docker rm "ID" --force
 docker rm $(docker ps -a -q) --force
 ```
 
+## Borrar imagenes
+
+Borrar 1 imagen, le Pasamos el ID. Toca tener en cuenta que la imagen no DEPENDA de otra.
+
+```
+docker rmi ID
+```
+
+## Borrar todas las imagenes
+
+```
+docker rmi $(docker images -q) --force
+```
+
+![label text](imgs/06.png)
 
 
 
