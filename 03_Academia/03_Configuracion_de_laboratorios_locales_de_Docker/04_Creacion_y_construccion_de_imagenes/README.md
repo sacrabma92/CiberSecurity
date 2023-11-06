@@ -53,7 +53,7 @@ docker images
 # Descargar imagen de Docker de regitstro de Docker
 
 ```
-docker pull **imagen a descargar***
+docker pull **imagen a descargar**
 
 ```
 
