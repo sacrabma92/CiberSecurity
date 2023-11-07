@@ -33,6 +33,85 @@ Sin embargo, este archivo también puede ser abusado por atacantes malintenciona
 
 En la siguiente clase estaremos desarrollando un script en Bash desde cero para realizar este tipo de ataques.
 
+# Enumeración en Wordpress
+
+Si la herramienta wpscan no funcionan usen el siguiente comando:
+Esta herramienta enumera, temas, plugins, versiones y otras cosas.
+
+```
+sudo gem update
+```
+
+![label text](imgs/01.png)
+
+Listar usuarios y plugins vulnerables
+
+Parametro -e enumerar\
+Parametro vp Plugins vulnerables\
+Parametro u enumerar usuario
+
+![label text](imgs/02.png)
+
+## API wpscan
+
+Para mejorar el escaneo podemos obtener una api de wpscan.com
+
+![label text](imgs/03.png)
+
+Procedemos a usar la api en la herramienta para enumerar plugins vulnerables 
+
+![label text](imgs/04.png)
+
+Vemos los resultados obtenidos
+
+![label text](imgs/05.png)
+
+## Listar Plugins por Codigo fuente
+
+![label text](imgs/06.png)
+
+## Miramos si el xmlrpc.php
+
+Miramo si el archivo xmlrpc.php esta expuesto si es asi podemos realizar un ataque
+Nos dice que aceta parametros por POST
+
+![label text](imgs/07.png)
+
+Podremos abusar de este para buscar credenciales validas.
+
+![label text](imgs/08.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
