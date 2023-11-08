@@ -62,6 +62,15 @@ Y desde la maquina local nos conectamos al servidor
 
 # Forward Shells
 
+Para poder ejecutar el contenedor con una flag para poder ejecutar las iptables debemos detener el servicio de docker.\
+Debemos eliminar el contenedor tambien.
+
+![label text](imgs/11.png)
+
+Ahora corremos el contenedor con la nueva flag para poder ejecutar las iptables
+
+![label text](imgs/12.png)
+
 Vamos a instalar iptables en el contenedor para colocar reglas de firewall
 
 ![label text](imgs/10.png)
@@ -76,27 +85,16 @@ Reiniciamos el servicio de apache
 service apache2 restart
 ```
 
-Para poder ejecutar el contenedor con una flag para poder ejecutar las iptables debemos detener el servicio de docker.\
-Debemos eliminar el contenedor tambien.
+Le indicamos que todas las peticiones TCP por el puerto 80 sean aceptadas las demas seran bloqueadas.
 
-![label text](imgs/11.png)
-
-Ahora corremos el contenedor con la nueva flag para poder ejecutar las iptables
-
-![label text](imgs/12.png)
-
-Volvemos a instalar las iptables.
-
-Le indicamos que tocas las peticiones TCP por el puerto 80 sean aceptadas las demas seran bloqueadas.
+![label text](imgs/13.png)
 
 Debemos modificar la ruta 
 Buscamos en nano con Ctrl + w y buscamos short_open_tag y lo pasamos a Off
 
-![label text](imgs/18.png)
-
 ![label text](imgs/17.png)
 
-![label text](imgs/13.png)
+![label text](imgs/18.png)
 
 Borramos el index.html del servidor\
 Supondremos que pudimos subir un archivo .php al servidor en la ruta /var/www/html en este caso se llamarada cmd.php
