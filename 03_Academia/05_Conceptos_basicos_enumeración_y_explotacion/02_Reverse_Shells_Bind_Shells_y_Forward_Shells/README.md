@@ -96,6 +96,12 @@ Buscamos en nano con Ctrl + w y buscamos short_open_tag y lo pasamos a Off
 
 ![label text](imgs/18.png)
 
+Reiniciamos el servicio de apareche
+
+```
+service apache2 restart
+```
+
 Borramos el index.html del servidor\
 Supondremos que pudimos subir un archivo .php al servidor en la ruta /var/www/html en este caso se llamarada cmd.php
 
