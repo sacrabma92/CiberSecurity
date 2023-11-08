@@ -83,7 +83,7 @@ Debemos eliminar el contenedor tambien.
 
 Ahora corremos el contenedor con la nueva flag para poder ejecutar las iptables
 
-[!labelt text](imgs/12.png)
+![label text](imgs/12.png)
 
 Volvemos a instalar las iptables.
 
