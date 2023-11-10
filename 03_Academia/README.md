@@ -30,5 +30,11 @@ Borrar volumenes
 docker volume rm $(docker volume ls -q)
 ```
 
+Borrar las networks
+
+```
+docker network rm $(docker network ls -q)
+```
+
 [01 Conceptos Básicos](https://github.com/sacrabma92/CiberSecurity/tree/main/03_Academia/01%20Conceptos%20Basicos)
 [02 Reconocimiento](https://github.com/sacrabma92/CiberSecurity/tree/main/03_Academia/02_Reconocimiento)
