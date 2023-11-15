@@ -3,6 +3,7 @@
 ```
 git config --global user.name "Carlos Ramirez"
 git config --global user.email "karlossander92@gmail.com"
+sudo apt install gh
 ```
 Configuración inicial del usuario y del email
 
