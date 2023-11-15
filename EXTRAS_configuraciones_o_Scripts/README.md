@@ -9,6 +9,14 @@ function rmk(){
 }
 ```
 
+Este Script para resetear el target de la polybar
+
+```python
+function cleartarget(){
+	echo '' > /home/dxz/.config/bin/target
+}
+```
+
 # Atajos de Teclado de Linux para Shell
 
 ```
